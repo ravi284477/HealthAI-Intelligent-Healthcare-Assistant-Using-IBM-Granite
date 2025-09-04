@@ -1,0 +1,332 @@
+﻿PAVENDAR BHARATHIDASAN COLLEGE OF ARTS AND SCIENCE
+
+HealthAI: Intelligent Healthcare Assistant Using IBM Granite
+
+PROJECT TITLE            : HealthAI: Intelligent Healthcare Assistant Using IBM Granite
+
+
+Team ID : NM2025TMID11261
+Team Size : 4
+Team Leader : Ravinthiran B
+Team member : Baranikumar B
+Team member : Kavi selvan K
+Team member : EMITH ALLOYSIUS J
+
+
+                
+
+📘 Introduction
+
+Project Overview
+HealthAI is a real-time intelligent healthcare assistant built using Python, Streamlit, and OpenAI/IBM
+Granite. It simulates doctor-like responses, predicts diseases, suggests treatments, and visualizes health
+metrics. It demonstrates how AI can be leveraged to provide meaningful health advice with a simple UI.
+Purpose
+To leverage IBM's Granite LLM for building a reliable, accessible, and AI-powered health assistant that
+aids users in health-related queries efficiently and securely.
+
+
+
+
+💡Ideation Phase
+
+Problem Statement:
+Many individuals struggle to access quick and reliable health guidance, especially in remote or
+underserved areas. HealthAI bridges this gap using AI-powered assistants.
+Empathy Map Canvas:
+Think & Feel: Wants accurate medical advice
+See: Too much online misinformation
+Say & Do: Seeks help through apps
+Hear: Concerns about trust in AI
+Pain: Long wait times at clinics
+Gain: Fast and trusted guidance
+Brainstorming:
+Use AI/ML for health Q&A
+Integration with IBM Granite
+Chat interface for ease of access
+
+Data Flow Diagram:
+
+
+
+
+✅Reqirement Analysis
+
+ Customer Journey Map:
+ User opens app → asks question → receives response → gets suggestions
+
+ Solution Requirements:
+ • AI model: IBM Granite
+ • Backend: Python, Flask/FastAPI
+ • Frontend: HTML/CSS/JS or Streamlit
+ • Database (optional)
+
+
+
+
+📜 Declaration
+ We hereby declare that the project titled "HealthAI: Intelligent Healthcare Assistant Using
+ OpenAI" is the result of our original work completed under the guidance of SmartInternz
+ and IBM. It has not been submitted elsewhere for any academic or professional recognition.
+ All development, documentation, and implementation tasks were carried out with sincerity
+ and adherence to academic integrity.
+
+
+
+ 🙏 Acknowledgment
+ We express our heartfelt gratitude to SmartInternz and IBM for providing us this
+ opportunity to work on an industry-relevant guided project. We also thank our faculty
+ members and mentors for their continuous support, technical guidance, and valuable
+ feedback throughout the course of this project.
+
+
+
+ 🧠 Abstract
+ HealthAI is a real-time intelligent healthcare assistant that enables users to interact with an
+ AI system to receive health-related information. Built with Python, Streamlit, and OpenAI,
+ the system offers personalized responses to health queries, provides AI-powered disease
+ predictions based on symptoms, suggests treatment guidelines, and visualizes patient data
+ through insightful graphs. It serves as an educational and awareness tool, empowering
+ users to make informed decisions about their health.
+
+
+
+
+
+
+
+Ị Problem Statement
+Access to timely and professional medical advice remains a challenge for many, especially in
+rural and underserved communities. HealthAI aims to bridge this gap by offering a virtual
+assistant capable of providing preliminary health guidance, improving awareness, and
+reducing dependence on overburdened healthcare systems. It acts as a first point of
+reference before seeking clinical care.
+
+
+
+
+🛠 Tools and Technologies Used
+
+ Tool/Technology        Purpose
+
+ Python                 Backend logic and data processing
+
+ Streamlit              Web interface development and deployment
+
+ OpenAI (ChatGPT)       AI-based natural language understanding and response generation
+
+ Pandas                 Health data manipulation and storage
+
+ Plotly                 Health metric visualization through dynamic graphs
+
+ GitHub                 Version control and collaborative development
+
+ SmartInternz Platform Project structure, guidance, and submission support
+
+
+
+
+🧩Modules Implemented
+Patient Chat – Offers interactive, AI-generated responses to user health queries using
+prompt engineering and natural language processing.
+
+Disease Prediction – Accepts symptoms from users and predicts possible conditions using
+symptom-based AI analysis.
+
+Treatment Plans – Provides standard medical guidance and lifestyle suggestions for known
+medical conditions.
+
+Health Analytics – Visualizes user health data trends like blood pressure, glucose levels, and
+heart rate, with AI-generated insights for better health tracking.
+
+
+
+
+⚙️How to Use the HealthAI Application
+    1. Open App:HealthAI Streamlit App
+        ( https://healthaiproject-9zncftohtgbtxnwcvrkdss.streamlit.app/ )
+
+    2. Choose Feature: Patient Chat / Disease Prediction / Treatment Plans / Health
+    Analytics
+    3. Input Data: Type symptoms or condition
+    4. Submit: Click generate
+    5. Output: Get response from AI instantly
+
+
+Sample Module Outputs
+·.t_*± Home Page:
+
+The HealthAI homepage provides an intuitive interface with quick access to modules like
+Patient Chat, Disease Prediction, Treatment Plans, and Health Analytics. It displays patient
+details and allows users to begin interacting with the AI assistant immediately.
+
+
+
+
+·¡_^ HealthAI: Intelligent Healthcare Assistant
+
+Welcome to HealthAI, your virtual healthcare companion powered by AI.
+This application provides:
+
+    •         'Real- time medical chat support using AI
+        ˘ ⬛ _*’
+
+    •   C˛* Disease predictions based on symptoms
+
+    •   ˙’Personalized treatment plan suggestions
+
+    •   /¡ç# Health data analytics and trends
+
+
+< Module 1: Patient Chat
+
+
+
+
+User: I have fever and body aches.What could it be?
+HealthAI :
+
+ •   Malaria: A serious disease spread by mosquitoes causing fever and flu-like
+     illness.
+ •   Chikungunya: A viral disease transmitted to humans by infected mosquitoes.
+ •   Pneumonia: An infection of the lungs causing inflammation and fluid buildup.
+     This is not a diagnosis
+
+
+
+`^ Module 2: Disease Prediction
+
+
+
+
+
+User: fever,cough,rash,body pain
+
+HealthAI :
+
+Analyze Symptoms
+Possible conditions based on your symptoms:
+
+•   Chikungunya
+•   Pneumonia
+•   Tuberculosis
+•   Cold
+•   Dengue
+
+
+
+˙’Module 3: Treatment Plans
+
+
+
+
+Treatment Recommendations
+Enter a medical condition:
+• Malaria
+Treatment Options for Malaria
+• Medications:
+• antimalarial drugs
+Lifestyle Recommendations:
+• use mosquito nets
+• avoid stagnant water
+
+
+
+
+# Module 4: Health Analytics
+/¡ç
+  Displays 30-day trends of Heart Rate, BP, Glucose with insights.
+
+
+
+
+🏗 Technical Architecture
+
+Proposed Solution:
+Interactive chatbot powered by IBM Granite that processes symptoms and suggests outcomes
+
+
+
+
+
+📅 Project Planning & Scheduling
+  Day 1: Research&Planning
+  Day 2: Backend & AI Integration
+  Day 3: Frontend Design
+  Day 4: Testing & Debugging
+  Day 5: Documentation
+
+🔁 Project Workflow
+ - Requirement Gathering
+ - AI Model Selection
+ - UI/UX Planning
+ - Development (Frontend + Backend)
+ - Integration & Testing
+ - Deployment
+
+ 🚩 Milestone 1: Model Selection and Architecture
+ We selected OpenAI GPT-3.5 for its powerful conversational abilities. Backend and frontend
+ were designed to interact through clean APIs and modular components.
+
+
+ 🔧 Milestone 2: Core Functionalities Development
+ Each module was developed independently:
+ - AI chat for general queries
+ - Symptom-based disease prediction
+ - Condition-based treatment planning
+ - Time-based health data visualization
+
+
+ 📜 App.py Development
+ This main file handles routing, input collection, response display, and connects user
+ interactions to utility logic and the OpenAI model.
+
+
+ 🎨 UI Design
+ User interface is built using Streamlit’s built-in widgets and layout elements. Simple yet
+ modern layout using sidebar, form inputs, charts, and response sections.
+
+
+ 🚀 Deployment
+ Hosted on Streamlit Cloud. Environment variables securely stored. GitHub for code
+ management and team collaboration.
+
+
+
+
+
+🔮 Future Scope
+ -Connect with verified doctors
+ -Use wearable IoT devices
+  -Add user login and history
+  -Deploy on cloud with authentication
+
+
+✅Advantages & Limitations
+  Advantages:
+  Instant AI responses
+  Easy-to-use interface
+  Based on reliable IBM/OpenAI models
+
+  Limitations:
+  No real-time doctor verification
+  Requires internet
+  Accuracy depends on model training
+
+
+ ✅ Conclusion
+  HealthAI was a hands-on experience in building AI-integrated health apps. We learned
+  prompt engineering, Streamlit deployment, and OpenAI usage for real-world healthcare
+  problems.
+
+
+  🔗 Project Links
+     App: https://healthaiproject-9zncftohtgbtxnwcvrkdss.streamlit.app/
+  _¿□ GitHub: https://github.com/mahendra4338/HealthAI_Project/tree/main
+      DemoVideo: https://youtu.be/nyhc0tBoAZQ?si=tzA0AElV9AcZ2XQo
+      Report Source: IBM Granite Model Documentation
+
+
+
+
+
